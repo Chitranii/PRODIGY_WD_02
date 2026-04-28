@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+    background: linear-gradient(135deg, #E8EDF2, #cfd9df);
+}
+
+/* Title */
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+/* Display */
+#display {
+    font-size: 60px;
+    margin: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #2C3947;
+    transition: transform 0.3s;
+}
+
+/* Slight animation when running */
+#display:hover {
+    transform: scale(1.05);
+}
+
+/* Buttons */
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(45deg, #2C3947, #4A6572);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background: linear-gradient(45deg, #4A6572, #2C3947);
+    transform: translateY(-3px);
+}
+
+/* Click effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Add shadow */
+button, #display {
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
